@@ -11,10 +11,10 @@
 # x <- matrix(1:16, nrow = 4, ncol = 4)	// Create a matrix x
 # cache_x <- makeCacheMatrix(x)		// Create the special matrix as required
 
-# cache_x$get()					// Return the matrix
-# cacheSolve(cache_x)				// Return the inverse of the matrix
-# cacheSolve(cache_x)				// Call the 2nd time, 
-# 							// the cached inverse will be returned
+# cache_x$get()				// Return the matrix
+# cacheSolve(cache_x)			// Return the inverse of the matrix
+# cacheSolve(cache_x)			// Call the 2nd time, 
+# 					// the cached inverse will be returned
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
