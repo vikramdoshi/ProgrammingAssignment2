@@ -9,12 +9,12 @@
 # ---------------------------------------------------------------------------
 # Example Usage:
 # x <- matrix(rnorm(25), nrow = 5, ncol = 5)	// Create a random matrix x
-# cache_x <- makeCacheMatrix(x)		// Create the special matrix as required
+# cache_x <- makeCacheMatrix(x)			// Create the special matrix as required
 
 # cache_x$get()					// Return the matrix
 # cacheSolve(cache_x)				// Return the inverse of the matrix
 # cacheSolve(cache_x)				// Call the inverse fn again, therefore
-# 							// the cached inverse will be returned
+# 						// the cached inverse will be returned
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
